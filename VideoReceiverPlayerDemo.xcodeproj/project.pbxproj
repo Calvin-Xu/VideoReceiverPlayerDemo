@@ -7,6 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		974617D2E3B500D603E2C883 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F8B45C210A06B4ED616E0504 /* libPods.a */; };
+		D36BEE041B9C4A200022B9DD /* libVideoCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D36BEE031B9C4A200022B9DD /* libVideoCore.a */; };
+		D36BEE061B9C4A250022B9DD /* libUriParser-cpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D36BEE051B9C4A250022B9DD /* libUriParser-cpp.a */; };
+		FA058D391B9B39FD004D314F /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D381B9B39FD004D314F /* OpenGLES.framework */; };
+		FA058D3B1B9B3A04004D314F /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D3A1B9B3A04004D314F /* GLKit.framework */; };
+		FA058D3D1B9B3A0E004D314F /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D3C1B9B3A0E004D314F /* CoreVideo.framework */; };
+		FA058D3F1B9B3A14004D314F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D3E1B9B3A14004D314F /* CoreMedia.framework */; };
+		FA058D411B9B3A1B004D314F /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D401B9B3A1B004D314F /* CFNetwork.framework */; };
+		FA058D431B9B3A23004D314F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D421B9B3A23004D314F /* AudioToolbox.framework */; };
+		FA058D451B9B3A2D004D314F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D441B9B3A2D004D314F /* AVFoundation.framework */; };
+		FA058D471B9B3A34004D314F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D461B9B3A34004D314F /* CoreGraphics.framework */; };
+		FA058D491B9B3A3A004D314F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D481B9B3A3A004D314F /* UIKit.framework */; };
+		FA058D4B1B9B3A40004D314F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA058D4A1B9B3A40004D314F /* Foundation.framework */; };
+		FA058D581B9B42D5004D314F /* SendViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = FAC63ACF1B9B3021007B69DE /* SendViewController.mm */; };
 		FABC83541B9AF3AC0097AB2D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC83531B9AF3AC0097AB2D /* main.m */; };
 		FABC83571B9AF3AC0097AB2D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC83561B9AF3AC0097AB2D /* AppDelegate.m */; };
 		FABC835A1B9AF3AC0097AB2D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC83591B9AF3AC0097AB2D /* ViewController.m */; };
@@ -14,6 +28,7 @@
 		FABC835F1B9AF3AC0097AB2D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FABC835E1B9AF3AC0097AB2D /* Images.xcassets */; };
 		FABC83621B9AF3AC0097AB2D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FABC83601B9AF3AC0097AB2D /* LaunchScreen.xib */; };
 		FABC836E1B9AF3AC0097AB2D /* VideoReceiverPlayerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FABC836D1B9AF3AC0097AB2D /* VideoReceiverPlayerDemoTests.m */; };
+		FAC63ACD1B9B1A5E007B69DE /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAC63ACC1B9B1A5E007B69DE /* WebViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +42,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		123D0FE0F48B0A4FA654A3BA /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D20F24BCFDBB371F937EBF04 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		D36BEE011B9C48860022B9DD /* libUriParser-cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUriParser-cpp.a"; path = "Pods/../build/Debug-iphoneos/libUriParser-cpp.a"; sourceTree = "<group>"; };
+		D36BEE031B9C4A200022B9DD /* libVideoCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVideoCore.a; path = "Pods/../build/Debug-iphoneos/libVideoCore.a"; sourceTree = "<group>"; };
+		D36BEE051B9C4A250022B9DD /* libUriParser-cpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libUriParser-cpp.a"; path = "Pods/../build/Debug-iphoneos/libUriParser-cpp.a"; sourceTree = "<group>"; };
+		F8B45C210A06B4ED616E0504 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA058D381B9B39FD004D314F /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		FA058D3A1B9B3A04004D314F /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		FA058D3C1B9B3A0E004D314F /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		FA058D3E1B9B3A14004D314F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		FA058D401B9B3A1B004D314F /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FA058D421B9B3A23004D314F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FA058D441B9B3A2D004D314F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FA058D461B9B3A34004D314F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA058D481B9B3A3A004D314F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA058D4A1B9B3A40004D314F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FABC834E1B9AF3AC0097AB2D /* VideoReceiverPlayerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VideoReceiverPlayerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABC83521B9AF3AC0097AB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FABC83531B9AF3AC0097AB2D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +71,10 @@
 		FABC83671B9AF3AC0097AB2D /* VideoReceiverPlayerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VideoReceiverPlayerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FABC836C1B9AF3AC0097AB2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FABC836D1B9AF3AC0097AB2D /* VideoReceiverPlayerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoReceiverPlayerDemoTests.m; sourceTree = "<group>"; };
+		FAC63ACB1B9B1A5E007B69DE /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		FAC63ACC1B9B1A5E007B69DE /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		FAC63ACE1B9B3021007B69DE /* SendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SendViewController.h; sourceTree = "<group>"; };
+		FAC63ACF1B9B3021007B69DE /* SendViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SendViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +82,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D36BEE061B9C4A250022B9DD /* libUriParser-cpp.a in Frameworks */,
+				D36BEE041B9C4A200022B9DD /* libVideoCore.a in Frameworks */,
+				FA058D4B1B9B3A40004D314F /* Foundation.framework in Frameworks */,
+				FA058D491B9B3A3A004D314F /* UIKit.framework in Frameworks */,
+				FA058D471B9B3A34004D314F /* CoreGraphics.framework in Frameworks */,
+				FA058D451B9B3A2D004D314F /* AVFoundation.framework in Frameworks */,
+				FA058D431B9B3A23004D314F /* AudioToolbox.framework in Frameworks */,
+				FA058D411B9B3A1B004D314F /* CFNetwork.framework in Frameworks */,
+				FA058D3F1B9B3A14004D314F /* CoreMedia.framework in Frameworks */,
+				FA058D3D1B9B3A0E004D314F /* CoreVideo.framework in Frameworks */,
+				FA058D3B1B9B3A04004D314F /* GLKit.framework in Frameworks */,
+				FA058D391B9B39FD004D314F /* OpenGLES.framework in Frameworks */,
+				974617D2E3B500D603E2C883 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +108,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14970016BC8F4127A8709197 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA058D381B9B39FD004D314F /* OpenGLES.framework */,
+				FA058D3A1B9B3A04004D314F /* GLKit.framework */,
+				FA058D3C1B9B3A0E004D314F /* CoreVideo.framework */,
+				FA058D3E1B9B3A14004D314F /* CoreMedia.framework */,
+				FA058D401B9B3A1B004D314F /* CFNetwork.framework */,
+				FA058D421B9B3A23004D314F /* AudioToolbox.framework */,
+				FA058D441B9B3A2D004D314F /* AVFoundation.framework */,
+				FA058D461B9B3A34004D314F /* CoreGraphics.framework */,
+				FA058D481B9B3A3A004D314F /* UIKit.framework */,
+				FA058D4A1B9B3A40004D314F /* Foundation.framework */,
+				D36BEE051B9C4A250022B9DD /* libUriParser-cpp.a */,
+				D36BEE031B9C4A200022B9DD /* libVideoCore.a */,
+				D36BEE011B9C48860022B9DD /* libUriParser-cpp.a */,
+				F8B45C210A06B4ED616E0504 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1AAB5D3BA02382DDAC19B996 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				123D0FE0F48B0A4FA654A3BA /* Pods.debug.xcconfig */,
+				D20F24BCFDBB371F937EBF04 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		FABC83451B9AF3AC0097AB2D = {
 			isa = PBXGroup;
 			children = (
 				FABC83501B9AF3AC0097AB2D /* VideoReceiverPlayerDemo */,
 				FABC836A1B9AF3AC0097AB2D /* VideoReceiverPlayerDemoTests */,
 				FABC834F1B9AF3AC0097AB2D /* Products */,
+				1AAB5D3BA02382DDAC19B996 /* Pods */,
+				14970016BC8F4127A8709197 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -85,6 +165,10 @@
 				FABC83561B9AF3AC0097AB2D /* AppDelegate.m */,
 				FABC83581B9AF3AC0097AB2D /* ViewController.h */,
 				FABC83591B9AF3AC0097AB2D /* ViewController.m */,
+				FAC63ACB1B9B1A5E007B69DE /* WebViewController.h */,
+				FAC63ACC1B9B1A5E007B69DE /* WebViewController.m */,
+				FAC63ACE1B9B3021007B69DE /* SendViewController.h */,
+				FAC63ACF1B9B3021007B69DE /* SendViewController.mm */,
 				FABC835B1B9AF3AC0097AB2D /* Main.storyboard */,
 				FABC835E1B9AF3AC0097AB2D /* Images.xcassets */,
 				FABC83601B9AF3AC0097AB2D /* LaunchScreen.xib */,
@@ -126,9 +210,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FABC83711B9AF3AC0097AB2D /* Build configuration list for PBXNativeTarget "VideoReceiverPlayerDemo" */;
 			buildPhases = (
+				0F8DB1CAF6460ED2A216C51F /* Check Pods Manifest.lock */,
 				FABC834A1B9AF3AC0097AB2D /* Sources */,
 				FABC834B1B9AF3AC0097AB2D /* Frameworks */,
 				FABC834C1B9AF3AC0097AB2D /* Resources */,
+				136765611990F1B13E137794 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -214,14 +300,49 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F8DB1CAF6460ED2A216C51F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		136765611990F1B13E137794 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FABC834A1B9AF3AC0097AB2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA058D581B9B42D5004D314F /* SendViewController.mm in Sources */,
 				FABC835A1B9AF3AC0097AB2D /* ViewController.m in Sources */,
 				FABC83571B9AF3AC0097AB2D /* AppDelegate.m in Sources */,
 				FABC83541B9AF3AC0097AB2D /* main.m in Sources */,
+				FAC63ACD1B9B1A5E007B69DE /* WebViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +388,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -283,9 +405,10 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -299,10 +422,19 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode\\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/Users/alex/Desktop/My,
+					"\"$(SRCROOT)/Pods/Headers/Private\"",
+					"\"$(SRCROOT)/Pods/Headers/Public\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
@@ -310,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
@@ -327,8 +460,9 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_INPUT_FILETYPE = automatic;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
@@ -336,36 +470,87 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode\\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/Users/alex/Desktop/My,
+					"\"$(SRCROOT)/Pods/Headers/Private\"",
+					"\"$(SRCROOT)/Pods/Headers/Public\"",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
 		FABC83721B9AF3AC0097AB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 123D0FE0F48B0A4FA654A3BA /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode\\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/Users/alex/Desktop/My,
+					"\"$(SRCROOT)/Pods/Headers/Private\"/**",
+					"\"$(SRCROOT)/Pods/Headers/Public\"/**",
+					"\"$(SRCROOT)/Pods/boost\"/**",
+				);
 				INFOPLIST_FILE = VideoReceiverPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		FABC83731B9AF3AC0097AB2D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D20F24BCFDBB371F937EBF04 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				GCC_INPUT_FILETYPE = automatic;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Applications/Xcode\\ 2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include",
+					/Users/alex/Desktop/My,
+					"\"$(SRCROOT)/Pods/Headers/Private\"/**",
+					"\"$(SRCROOT)/Pods/Headers/Public\"/**",
+					"\"$(SRCROOT)/Pods/boost\"/**",
+				);
 				INFOPLIST_FILE = VideoReceiverPlayerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
 		FABC83751B9AF3AC0097AB2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -377,14 +562,17 @@
 				);
 				INFOPLIST_FILE = VideoReceiverPlayerDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoReceiverPlayerDemo.app/VideoReceiverPlayerDemo";
+				VALID_ARCHS = "arm64 armv7s";
 			};
 			name = Debug;
 		};
 		FABC83761B9AF3AC0097AB2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -392,8 +580,10 @@
 				);
 				INFOPLIST_FILE = VideoReceiverPlayerDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VideoReceiverPlayerDemo.app/VideoReceiverPlayerDemo";
+				VALID_ARCHS = "arm64 armv7s";
 			};
 			name = Release;
 		};
@@ -416,6 +606,7 @@
 				FABC83731B9AF3AC0097AB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FABC83741B9AF3AC0097AB2D /* Build configuration list for PBXNativeTarget "VideoReceiverPlayerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +615,7 @@
 				FABC83761B9AF3AC0097AB2D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

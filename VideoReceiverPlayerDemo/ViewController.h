@@ -8,8 +8,19 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@protocol ViewControllerDelegate <NSObject>
 
+@required
+
+- (void) sendIP:(NSString *) ip stream:(NSString *) stream;
+
+@end
+
+@interface ViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UITextField *ipAddressTextField;
+@property (weak, nonatomic) IBOutlet UITextField *streamTextField;
+
+@property (nonatomic,retain) id <ViewControllerDelegate> delegate;
 
 @end
 
